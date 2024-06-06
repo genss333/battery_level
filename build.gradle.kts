@@ -56,10 +56,11 @@ publishing {
         }
     }
 
+
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/genss333/battery_level.git")
+            url = uri("https://maven.pkg.github.com/genss333/https://github.com/genss333/battery_level.git")
             credentials {
                 username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
                 password = project.findProperty("gpr.token") as String? ?: System.getenv("TOKEN")
